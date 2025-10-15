@@ -1,0 +1,23 @@
+{
+  "name": "realtime-analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Real-time analytics dashboard with live data visualization",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && npm start",
+    "install-client": "cd client && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": ["analytics", "dashboard", "realtime", "websocket"],
+  "author": "Jerronce",
+  "license": "MIT"
+}
